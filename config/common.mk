@@ -138,14 +138,14 @@ endif
 # KitKat SlimKat beta releases
 PRODUCT_VERSION_MAJOR = 4.4.2
 PRODUCT_VERSION_MINOR = build
-PRODUCT_VERSION_MAINTENANCE = 2.5.RC1
+PRODUCT_VERSION_MAINTENANCE = 2.5.RC1.$(shell date +"%Y%m%d")
 ifdef SLIM_BUILD_EXTRA
     SLIM_POSTFIX := -$(SLIM_BUILD_EXTRA)
 endif
 ifndef SLIM_BUILD_TYPE
-    SLIM_BUILD_TYPE := UNOFFICIAL
-    PLATFORM_VERSION_CODENAME := UNOFFICIAL
-    SLIM_POSTFIX := -$(shell date +"%Y%m%d-%H%M")
+    SLIM_BUILD_TYPE := CHIL360
+    PLATFORM_VERSION_CODENAME := CHIL360
+    SLIM_POSTFIX := #-$(shell date +"%Y%m%d-%H%M")
 endif
 
 # Set all versions
