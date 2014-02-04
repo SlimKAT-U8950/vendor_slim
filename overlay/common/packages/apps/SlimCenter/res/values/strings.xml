@@ -18,6 +18,6 @@
 <resources>
 
     <!-- SlimOTA update checker -->
-    <string name="xml_url_kitkat">https://dl.dropboxusercontent.com/s/g03qykfux9hpdnu/ota_kitkat.xml</string>
+    <string name="xml_url_kitkat">https://googledrive.com/host/0B_WlcjMrZFTORTFQSlNfbDBTdm8/ota_kitkat.xml</string>
 
 </resources>
