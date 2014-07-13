@@ -158,7 +158,7 @@ endif
 # KitKat SlimKat freeze code
 PRODUCT_VERSION_MAJOR = 4.4.4
 PRODUCT_VERSION_MINOR = build
-PRODUCT_VERSION_MAINTENANCE = 6.3.$(shell date +"%Y%m%d")
+PRODUCT_VERSION_MAINTENANCE = 6.4.$(shell date +"%Y%m%d")
 ifdef SLIM_BUILD_EXTRA
     SLIM_POSTFIX := -$(SLIM_BUILD_EXTRA)
 endif
